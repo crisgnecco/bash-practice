@@ -9,10 +9,9 @@ while true ;do
   #if [ -d $fileName ] 
   if test -d $path 
   then
-    #TODO: how does it work?
     newPath=${fileName##*/}
     newFileName="$newPath$fecha$hora"
     cp -r $newPath $newFileName
-    fi
-    sleep $2
+  fi
+  sleep $2
 done
