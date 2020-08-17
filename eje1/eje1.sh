@@ -28,5 +28,6 @@ while IFS= read -r line; do
 done < "$input"
 
 echo $cont
+#echo probando git con VS
 
 
