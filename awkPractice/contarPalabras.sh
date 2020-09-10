@@ -1,0 +1,1 @@
+awk ' { cant+=NR } END { print cant } ' < "$1" # $1 es el nombre del archivo
