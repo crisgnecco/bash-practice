@@ -5,4 +5,3 @@ pepe
 madera
 sistemas
 sistemas
-operativos
