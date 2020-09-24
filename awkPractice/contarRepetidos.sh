@@ -4,7 +4,13 @@ awk '{
         cantRepAsoc[$i]++ }
 
     END { 
-        for(pal in cantRepAsoc) 
-            print cantRepAsoc[pal] 
-        }' < $1 #arch en el q se quiere contar rep 
+        for(pal in cantRepAsoc){
+            print pal " " cantRepAsoc[pal] > "asociativo.txt"
+        }
+    }' < $1 #arch en el q se quiere contar rep 
 
+# sort list by field
+
+
+
+ 

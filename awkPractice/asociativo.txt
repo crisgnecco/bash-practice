@@ -1,0 +1,4 @@
+auto 2
+notebook 1
+pc 1
+casa 2

@@ -1,0 +1,25 @@
+
+#### Algunos tests #####
+
+### validos
+
+# todosLosParametrosOK
+bash ejercicio3.sh -d /home/cristian/Documents/Repositories/bash-practice/tp/eje3/ -o /home/cristian/Documents/Repositories/bash-practice/tp/eje3/ -u 1
+
+# noPathDestinoOK
+bash ejercicio3.sh -d /home/cristian/Documents/Repositories/bash-practice/tp/eje3/ -u 1
+
+# noUmbralOK
+bash ejercicio3.sh -d /home/cristian/Documents/Repositories/bash-practice/tp/eje3/
+
+# pathRealtivo
+bash ejercicio3.sh -d dirA/ -o .
+
+### invalidos
+
+# umbralMenorACeroNOK
+bash ejercicio3.sh -d /home/cristian/Documents/Repositories/bash-practice/tp/eje3/ -o /home/cristian/Documents/Repositories/bash-practice/tp/eje3/ -u -1
+
+# noSePasoElPathOrigenNOK
+bash ejercicio3.sh -d
+
