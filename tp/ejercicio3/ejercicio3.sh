@@ -17,6 +17,8 @@ Help()
    echo "u     “umbral”: tamaño definido en KB para definir el umbral a analizar. Opcional. Si no es
         indicado, se considerará como umbral el promedio de peso de los archivos inspeccionados."
    echo "h     imprime ayuda"
+
+   exit 1 #added
 }
 
 
